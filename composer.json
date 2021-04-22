@@ -1,0 +1,34 @@
+{
+  "name": "pobo/shoptet-sdk",
+  "description": "A tool for easier use of the eshop API",
+  "keywords": [
+    "pobo",
+    "shoptet"
+  ],
+  "homepage": "https://github.com/pobo-builder/shoptet-sdk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jiří Daněk",
+      "email": "jirka.danek@jdanek.eu",
+      "homepage": "https://jdanek.eu",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.3",
+    "guzzlehttp/guzzle": ">=6.5.3",
+    "psr/http-message": "*",
+    "kuria/enum": "5.1.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "tracy/tracy": "^2.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pobo\\ShoptetSdk\\": "src"
+    }
+  }
+}
